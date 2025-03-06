@@ -125,6 +125,10 @@ nav {
         display: flex;
     }
 
+/* Mostrar el menú cuando el checkbox está marcado */
+    #menu-toggle:checked+ul {
+        display: flex;
+    }
 
 }
 
