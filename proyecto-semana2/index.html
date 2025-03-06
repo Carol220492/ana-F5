@@ -7,7 +7,6 @@
     <meta name="description" content="Product Landing Page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 
 <body>
@@ -120,6 +119,13 @@
             <span>Copyright 2021 Original Trombones</span>
         </footer>
     </div>
+    <script>
+        document.querySelectorAll('#nav-list a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('menu-toggle').checked = false;
+            });
+        });
+    </script>
     </div>
 </body>
 </html>
