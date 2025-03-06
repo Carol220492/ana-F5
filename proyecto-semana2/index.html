@@ -7,13 +7,14 @@
     <meta name="description" content="Product Landing Page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div id="page-wrapper">
         <header id="header">
             <div class="logo">
-                <img id="header-img" src="./images/product-landing-page-logo.png" alt="original trombones logo" />
+                <img id="header-img" src=icons/logo.png alt="original trombones" />
             </div>
 
             <nav id="nav-bar">
@@ -119,13 +120,6 @@
             <span>Copyright 2021 Original Trombones</span>
         </footer>
     </div>
-    <script>
-        document.querySelectorAll('#nav-list a').forEach(link => {
-            link.addEventListener('click', () => {
-                document.getElementById('menu-toggle').checked = false;
-            });
-        });
-    </script>
     </div>
 </body>
 </html>
